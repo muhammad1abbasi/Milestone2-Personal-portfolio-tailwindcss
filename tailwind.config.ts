@@ -11,7 +11,15 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        promary: "#ff6363",
+        secondary: "#ffa726",
+        dark: "#1a1a1a",
+        redAccent: "#e50914",
+        
       },
+      fontFamily: {
+        sans: ['"poppins"',"sans-serif"],
+      }
     },
   },
   plugins: [],
