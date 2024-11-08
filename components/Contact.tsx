@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FaLinkedin, FaGithub,  FaTwitter , FaFacebook,} from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaFacebook,} from 'react-icons/fa';
 
 interface SocialLink {
   name: string;
@@ -40,7 +40,7 @@ const socialLinks: SocialLink[] = [
     url: 'https://www.facebook.com/profile.php?id=61553189043009&mibextid=ZbWKwL',
     icon: <FaFacebook className='text-2xl' />,
   },
-  // Add more links as needed
+  
 ];
 
 const Contact: React.FC = () => (
@@ -58,7 +58,7 @@ const Contact: React.FC = () => (
           className="hover:text-redAccent transition-colors duration-300"
         >
           {link.icon}
-          <span className="sr-only">{link.name}</span> {/* Accessible name for screen readers */}
+          <span className="sr-only">{link.name}</span> 
         </a>
       ))}
     </div>
