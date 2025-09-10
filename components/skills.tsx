@@ -1,12 +1,10 @@
 const skills = [
-    { name: 'HTML', level: '80%' },
-    { name: 'CSS', level: '50%' },
-    { name: 'Typescript', level: '55%' },
-    { name: 'Python', level: '30%' },
-    { name: 'Next.js', level: '60%' },
-    { name: 'Figma' , level: '55%'},
-    { name: 'Git Hub' , level: '80%'}
-    
+    { name: 'HTML', level: '95%' },
+    { name: 'CSS/ Tailwaind_CSS', level: '90%' },
+    { name: 'Typescript', level: '60%' },
+    { name: 'Python', level: '75%' },
+    { name: 'Next.js', level: '75%' },
+    { name: 'Figma' , level: '90%'},
   ];
   
   const Skills: React.FC = () => (
